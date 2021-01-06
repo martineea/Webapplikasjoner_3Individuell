@@ -1,0 +1,634 @@
+2020-11-06T08:52:34.3063130+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(50,73): error TS2663: Cannot find name 'Skjema'. Did you mean the instance member 'this.Skjema'?
+    
+    
+ (29108d28)
+2020-11-06T08:52:34.5519150+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(88,26): error TS2304: Cannot find name 'umber'.
+    src/app/kontakt/kontakt.component.ts(89,10): error TS2339: Property 'laster' does not exist on type 'KontaktComponent'.
+    src/app/kontakt/kontakt.component.ts(92,39): error TS2339: Property 'meleding' does not exist on type 'kontakt[]'.
+    src/app/kontakt/kontakt.component.ts(93,14): error TS2339: Property 'laster' does not exist on type 'KontaktComponent'.
+    
+ (afb42737)
+2020-11-06T09:00:18.6154000+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(82,9): error TS2696: The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?
+      Type 'Object' is missing the following properties from type 'kontakt[]': length, pop, push, concat, and 26 more.
+    src/app/kontakt/kontakt.component.ts(90,10): error TS2339: Property 'laster' does not exist on type 'KontaktComponent'.
+    src/app/kontakt/kontakt.component.ts(93,41): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    
+    
+ (fda7a579)
+2020-11-06T09:00:18.6250730+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(51,5): error TS2554: Expected 1 arguments, but got 0.
+    src/app/kontakt/kontakt.component.ts(84,9): error TS2696: The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?
+      Type 'Object' is missing the following properties from type 'kontakt[]': length, pop, push, concat, and 26 more.
+    src/app/kontakt/kontakt.component.ts(95,41): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    
+ (c15b0692)
+2020-11-06T09:00:58.4664330+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(51,5): error TS2554: Expected 1 arguments, but got 0.
+    src/app/kontakt/kontakt.component.ts(84,9): error TS2696: The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?
+      Type 'Object' is missing the following properties from type 'kontakt[]': length, pop, push, concat, and 26 more.
+    src/app/kontakt/kontakt.component.ts(95,41): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    
+ (c15b0692)
+2020-11-06T09:04:34.7633810+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(51,5): error TS2554: Expected 1 arguments, but got 0.
+    src/app/kontakt/kontakt.component.ts(84,9): error TS2696: The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?
+      Type 'Object' is missing the following properties from type 'kontakt[]': length, pop, push, concat, and 26 more.
+    src/app/kontakt/kontakt.component.ts(95,41): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    
+    
+ (e2f068a5)
+2020-11-06T09:04:34.7897670+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(52,5): error TS2554: Expected 1 arguments, but got 0.
+    src/app/kontakt/kontakt.component.ts(85,9): error TS2696: The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?
+      Type 'Object' is missing the following properties from type 'kontakt[]': length, pop, push, concat, and 26 more.
+    src/app/kontakt/kontakt.component.ts(96,41): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    
+ (a9fd3add)
+2020-11-06T09:05:41.2175720+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(52,5): error TS2554: Expected 1 arguments, but got 0.
+    src/app/kontakt/kontakt.component.ts(84,9): error TS2696: The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?
+      Type 'Object' is missing the following properties from type 'kontakt[]': length, pop, push, concat, and 26 more.
+    src/app/kontakt/kontakt.component.ts(95,41): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    
+ (9c2f96ab)
+2020-11-06T09:07:46.3815340+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(52,5): error TS2554: Expected 1 arguments, but got 0.
+    src/app/kontakt/kontakt.component.ts(84,9): error TS2696: The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?
+      Type 'Object' is missing the following properties from type 'kontakt[]': length, pop, push, concat, and 26 more.
+    src/app/kontakt/kontakt.component.ts(95,41): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    
+ (9c2f96ab)
+2020-11-06T09:07:48.0243640+01:00 0HM41H518ST3U:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Net.WebSockets.WebSocketException (0x80004005): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+   at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+   at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-11-06T09:07:48.0432770+01:00 0HM41H518ST3U:00000001 [WRN] The response has already started, the error page middleware will not be executed. (e1dd4c0d)
+2020-11-06T09:07:48.0646630+01:00 0HM41H518ST3U:00000001 [ERR] Connection id ""0HM41H518ST3U"", Request id ""0HM41H518ST3U:00000001"": An unhandled exception was thrown by the application. (560e7d32)
+System.Net.WebSockets.WebSocketException (0x80004005): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+   at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+   at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-11-06T09:08:22.0729520+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(52,5): error TS2554: Expected 1 arguments, but got 0.
+    src/app/kontakt/kontakt.component.ts(84,9): error TS2696: The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?
+      Type 'Object' is missing the following properties from type 'kontakt[]': length, pop, push, concat, and 26 more.
+    src/app/kontakt/kontakt.component.ts(95,41): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    src/app/kontakt/kontakt.component.ts(96,22): error TS2304: Cannot find name 'kId'.
+    
+ (b8ff4282)
+2020-11-06T09:09:49.4342640+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(52,5): error TS2554: Expected 1 arguments, but got 0.
+    src/app/kontakt/kontakt.component.ts(84,9): error TS2696: The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?
+      Type 'Object' is missing the following properties from type 'kontakt[]': length, pop, push, concat, and 26 more.
+    src/app/kontakt/kontakt.component.ts(95,41): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    src/app/kontakt/kontakt.component.ts(96,22): error TS2304: Cannot find name 'kId'.
+    
+ (b8ff4282)
+2020-11-06T09:22:15.5386560+01:00  [ERR] ERROR in app/kontakt/kontakt.component.ts:107:3 - error TS1109: Expression expected.
+
+107   }
+      ~
+
+ (ea8eb2b9)
+2020-11-06T09:22:16.8116940+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(102,14): error TS2339: Property 'kundeBekreft' does not exist on type 'KontaktComponent'.
+    src/app/kontakt/kontakt.component.ts(102,37): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    src/app/kontakt/kontakt.component.ts(103,22): error TS2554: Expected 0 arguments, but got 1.
+    
+ (6ebb53f1)
+2020-11-06T09:23:36.1189710+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(102,14): error TS2339: Property 'kundeBekreft' does not exist on type 'KontaktComponent'.
+    src/app/kontakt/kontakt.component.ts(102,37): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    src/app/kontakt/kontakt.component.ts(103,22): error TS2554: Expected 0 arguments, but got 1.
+    
+    
+ (28aace04)
+2020-11-06T09:24:49.5375960+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(50,42): error TS2304: Cannot find name 'kundeBekreft'.
+    src/app/kontakt/kontakt.component.ts(102,14): error TS2339: Property 'kundeBekreft' does not exist on type 'KontaktComponent'.
+    src/app/kontakt/kontakt.component.ts(102,37): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    src/app/kontakt/kontakt.component.ts(103,22): error TS2554: Expected 0 arguments, but got 1.
+    
+    
+ (4d82a2b7)
+2020-11-06T09:24:49.5923920+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(92,37): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    src/app/kontakt/kontakt.component.ts(93,22): error TS2554: Expected 0 arguments, but got 1.
+    src/app/kontakt/kontakt.component.ts(105,42): error TS2663: Cannot find name 'kundeBekreft'. Did you mean the instance member 'this.kundeBekreft'?
+    
+ (df70dd98)
+2020-11-06T09:25:20.2605960+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(92,37): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    src/app/kontakt/kontakt.component.ts(93,22): error TS2554: Expected 0 arguments, but got 1.
+    
+ (ee413c39)
+2020-11-06T09:26:28.9788500+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(92,37): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    src/app/kontakt/kontakt.component.ts(93,22): error TS2554: Expected 0 arguments, but got 1.
+    
+ (ee413c39)
+2020-11-06T09:32:52.8628810+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(91,37): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    src/app/kontakt/kontakt.component.ts(92,22): error TS2554: Expected 0 arguments, but got 1.
+    
+ (d151e92f)
+2020-11-06T09:34:02.2382840+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(91,37): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    src/app/kontakt/kontakt.component.ts(92,22): error TS2554: Expected 0 arguments, but got 1.
+    
+ (d151e92f)
+2020-11-06T09:35:51.7044420+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(91,37): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    src/app/kontakt/kontakt.component.ts(92,22): error TS2554: Expected 0 arguments, but got 1.
+    
+    
+ (14a5e992)
+2020-11-06T09:35:51.7091360+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(81,9): error TS2554: Expected 1 arguments, but got 0.
+    src/app/kontakt/kontakt.component.ts(91,37): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    src/app/kontakt/kontakt.component.ts(92,22): error TS2554: Expected 0 arguments, but got 1.
+    
+ (be20e06d)
+2020-11-06T09:38:03.9825240+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(47,5): error TS2554: Expected 1 arguments, but got 0.
+    src/app/kontakt/kontakt.component.ts(81,9): error TS2554: Expected 1 arguments, but got 0.
+    src/app/kontakt/kontakt.component.ts(91,37): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    
+    
+ (ea895347)
+2020-11-06T09:38:43.8358620+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(47,5): error TS2554: Expected 1 arguments, but got 0.
+    src/app/kontakt/kontakt.component.ts(48,10): error TS2339: Property 'lagreKontakt' does not exist on type 'KontaktComponent'.
+    src/app/kontakt/kontakt.component.ts(75,37): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    src/app/kontakt/kontakt.component.ts(101,11): error TS2554: Expected 1 arguments, but got 0.
+    
+    
+ (17930916)
+2020-11-06T09:38:43.8667610+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(47,5): error TS2554: Expected 1 arguments, but got 0.
+    src/app/kontakt/kontakt.component.ts(48,10): error TS2339: Property 'lagreKontakt' does not exist on type 'KontaktComponent'.
+    src/app/kontakt/kontakt.component.ts(75,37): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    src/app/kontakt/kontakt.component.ts(101,11): error TS2554: Expected 1 arguments, but got 0.
+    
+ (e6271948)
+2020-11-06T09:42:03.9278780+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(47,5): error TS2554: Expected 1 arguments, but got 0.
+    src/app/kontakt/kontakt.component.ts(48,10): error TS2339: Property 'lagreKontakt' does not exist on type 'KontaktComponent'.
+    src/app/kontakt/kontakt.component.ts(75,37): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    src/app/kontakt/kontakt.component.ts(94,11): error TS2304: Cannot find name 'retur'.
+    src/app/kontakt/kontakt.component.ts(95,9): error TS2554: Expected 2-3 arguments, but got 1.
+    src/app/kontakt/kontakt.component.ts(97,13): error TS2554: Expected 1 arguments, but got 0.
+    
+ (ebfcfdde)
+2020-11-06T09:44:14.9335750+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(47,5): error TS2554: Expected 1 arguments, but got 0.
+    src/app/kontakt/kontakt.component.ts(48,10): error TS2339: Property 'lagreKontakt' does not exist on type 'KontaktComponent'.
+    src/app/kontakt/kontakt.component.ts(75,37): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    src/app/kontakt/kontakt.component.ts(94,11): error TS2304: Cannot find name 'retur'.
+    src/app/kontakt/kontakt.component.ts(95,9): error TS2554: Expected 2-3 arguments, but got 1.
+    src/app/kontakt/kontakt.component.ts(97,13): error TS2554: Expected 1 arguments, but got 0.
+    
+ (ebfcfdde)
+2020-11-06T09:46:16.6417740+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(47,5): error TS2554: Expected 1 arguments, but got 0.
+    src/app/kontakt/kontakt.component.ts(48,10): error TS2339: Property 'lagreKontakt' does not exist on type 'KontaktComponent'.
+    src/app/kontakt/kontakt.component.ts(75,37): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    src/app/kontakt/kontakt.component.ts(94,11): error TS2304: Cannot find name 'retur'.
+    src/app/kontakt/kontakt.component.ts(95,9): error TS2554: Expected 2-3 arguments, but got 1.
+    src/app/kontakt/kontakt.component.ts(97,13): error TS2554: Expected 1 arguments, but got 0.
+    
+ (ebfcfdde)
+2020-11-06T09:47:04.6073340+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(47,5): error TS2554: Expected 1 arguments, but got 0.
+    src/app/kontakt/kontakt.component.ts(74,37): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    src/app/kontakt/kontakt.component.ts(93,11): error TS2304: Cannot find name 'retur'.
+    src/app/kontakt/kontakt.component.ts(94,9): error TS2554: Expected 2-3 arguments, but got 1.
+    src/app/kontakt/kontakt.component.ts(96,13): error TS2554: Expected 1 arguments, but got 0.
+    
+ (7da1744f)
+2020-11-06T09:47:44.2359490+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(47,5): error TS2554: Expected 1 arguments, but got 0.
+    src/app/kontakt/kontakt.component.ts(74,37): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    src/app/kontakt/kontakt.component.ts(94,9): error TS2554: Expected 2-3 arguments, but got 1.
+    src/app/kontakt/kontakt.component.ts(96,13): error TS2554: Expected 1 arguments, but got 0.
+    
+ (d84f71ff)
+2020-11-06T09:48:15.7723490+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(47,5): error TS2554: Expected 1 arguments, but got 0.
+    src/app/kontakt/kontakt.component.ts(74,37): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    src/app/kontakt/kontakt.component.ts(94,9): error TS2554: Expected 2-3 arguments, but got 1.
+    src/app/kontakt/kontakt.component.ts(96,13): error TS2554: Expected 1 arguments, but got 0.
+    
+ (d84f71ff)
+2020-11-06T09:49:07.1837950+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(47,5): error TS2554: Expected 1 arguments, but got 0.
+    src/app/kontakt/kontakt.component.ts(74,37): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    src/app/kontakt/kontakt.component.ts(94,9): error TS2554: Expected 2-3 arguments, but got 1.
+    src/app/kontakt/kontakt.component.ts(96,13): error TS2554: Expected 1 arguments, but got 0.
+    
+ (d84f71ff)
+2020-11-06T09:49:58.8776060+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(92,37): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    src/app/kontakt/kontakt.component.ts(93,22): error TS2554: Expected 0 arguments, but got 1.
+    
+ (ee413c39)
+2020-11-06T09:50:16.1159560+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(92,37): error TS2339: Property 'melding' does not exist on type 'kontakt[]'.
+    src/app/kontakt/kontakt.component.ts(93,22): error TS2554: Expected 0 arguments, but got 1.
+    
+ (ee413c39)
+2020-11-06T10:20:49.9526040+01:00 0HM41H518ST5Q:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Net.WebSockets.WebSocketException (0x80004005): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+   at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+   at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-11-06T10:20:49.9876240+01:00 0HM41H518ST5Q:00000001 [WRN] The response has already started, the error page middleware will not be executed. (e1dd4c0d)
+2020-11-06T10:20:50.0724200+01:00 0HM41H518ST5Q:00000001 [ERR] Connection id ""0HM41H518ST5Q"", Request id ""0HM41H518ST5Q:00000001"": An unhandled exception was thrown by the application. (560e7d32)
+System.Net.WebSockets.WebSocketException (0x80004005): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+   at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+   at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-11-06T10:47:40.0023040+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-06T10:47:40.0092640+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-06T10:47:40.0120580+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-06T10:47:40.0148470+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-06T11:49:03.1701440+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.ts(13,3): error TS2300: Duplicate identifier 'kaId'.
+    src/app/FAQ/FAQ.ts(13,3): error TS2717: Subsequent property declarations must have the same type.  Property 'kaId' must be of type 'Kategori', but here has type 'string'.
+    src/app/FAQ/FAQ.ts(14,3): error TS2300: Duplicate identifier 'kategoriNavn'.
+    src/app/FAQ/FAQ.ts(14,3): error TS2717: Subsequent property declarations must have the same type.  Property 'kategoriNavn' must be of type 'Kategori', but here has type 'string'.
+    
+ (25add9db)
+2020-11-06T12:40:27.6843770+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-06T12:40:27.6909250+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-06T12:40:27.6933080+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-06T12:40:27.6954930+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-06T12:56:49.5507740+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-06T12:56:49.5601830+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-06T12:56:49.5651200+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-06T12:56:49.5692920+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-06T13:51:29.3442500+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-06T13:51:29.3534920+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-06T13:51:29.3572790+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-06T13:51:29.3604490+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-06T14:50:45.0165610+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(25,4): error TS2304: Cannot find name 'ViewChildren'.
+    src/app/FAQ/FAQ.component.ts(25,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(26,4): error TS2304: Cannot find name 'ViewChildren'.
+    src/app/FAQ/FAQ.component.ts(26,41): error TS2304: Cannot find name 'QueryList'.
+    
+
+ (4b63bf3e)
+2020-11-06T14:50:45.0224070+01:00  [ERR] ERROR in app/FAQ/FAQ.component.ts:29:5 - error TS1136: Property assignment expected.
+
+29     { id: 1, sporsmal: "one", children: [{id: 1, name: "one-one"}]}
+       ~
+app/FAQ/FAQ.component.ts:29:22 - error TS1005: ';' expected.
+
+29     { id: 1, sporsmal: "one", children: [{id: 1, name: "one-one"}]}
+                        ~
+app/FAQ/FAQ.component.ts:29:39 - error TS1005: ';' expected.
+
+29     { id: 1, sporsmal: "one", children: [{id: 1, name: "one-one"}]}
+                                         ~
+app/FAQ/FAQ.component.ts:30:3 - error TS1128: Declaration or statement expected.
+
+30   }
+     ~
+app/FAQ/FAQ.component.ts:32:23 - error TS1005: ',' expected.
+
+32   constructor(private http: HttpClient, private router: Router) { }
+                         ~~~~
+app/FAQ/FAQ.component.ts:32:27 - error TS1005: ',' expected.
+
+32   constructor(private http: HttpClient, private router: Router) { }
+                             ~
+app/FAQ/FAQ.component.ts:32:49 - error TS1005: ',' expected.
+
+32   constructor(private http: HttpClient, private router: Router) { }
+                                                   ~~~~~~
+app/FAQ/FAQ.component.ts:32:55 - error TS1005: ',' expected.
+
+32   constructor(private http: HttpClient, private router: Router) { }
+                                                         ~
+app/FAQ/FAQ.component.ts:32:65 - error TS1005: ';' expected.
+
+32   constructor(private http: HttpClient, private router: Router) { }
+ (33ecaf55)
+2020-11-06T14:50:45.6431750+01:00  [ERR]                                                                    ~
+app/FAQ/FAQ.component.ts:34:14 - error TS1005: ';' expected.
+
+34   ngOnInit() {
+                ~
+app/FAQ/FAQ.component.ts:41:17 - error TS1005: ';' expected.
+
+41   hentAlleFAQ() {
+                   ~
+app/FAQ/FAQ.component.ts:52:23 - error TS1005: ';' expected.
+
+52   hentAlleKontakter() {
+                         ~
+app/FAQ/FAQ.component.ts:64:24 - error TS1005: ';' expected.
+
+64   hentAlleKategorier() {
+                          ~
+app/FAQ/FAQ.component.ts:77:15 - error TS1005: ',' expected.
+
+77   stemmerJa(id: number) {
+                 ~
+app/FAQ/FAQ.component.ts:77:25 - error TS1005: ';' expected.
+
+77   stemmerJa(id: number) {
+                           ~
+app/FAQ/FAQ.component.ts:91:16 - error TS1005: ',' expected.
+
+91   stemmerNei(id: number) {
+                  ~
+app/FAQ/FAQ.component.ts:91:26 - error TS1005: ';' expected.
+
+91   stemmerNei(id: number) {
+                            ~
+app/FAQ/FAQ.component.ts:104:1 - error TS1128: Declaration or statement expected.
+
+104 }
+    ~
+
+    
+ (6fea893b)
+2020-11-06T14:51:23.5600000+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(25,4): error TS2304: Cannot find name 'ViewChildren'.
+    src/app/FAQ/FAQ.component.ts(25,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(26,4): error TS2304: Cannot find name 'ViewChildren'.
+    src/app/FAQ/FAQ.component.ts(26,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(29,11): error TS2695: Left side of comma operator is unused and has no side effects.
+    src/app/FAQ/FAQ.component.ts(29,14): error TS2304: Cannot find name 'sporsmal'.
+    src/app/FAQ/FAQ.component.ts(29,24): error TS2695: Left side of comma operator is unused and has no side effects.
+    src/app/FAQ/FAQ.component.ts(29,31): error TS2304: Cannot find name 'children'.
+    src/app/FAQ/FAQ.component.ts(32,3): error TS2304: Cannot find name 'constructor'.
+    src/app/FAQ/FAQ.component.ts(32,15): error TS2304: Cannot find name 'private'.
+    src/app/FAQ/FAQ.component.ts(32,23): error TS2304: Cannot find name 'http'.
+    src/app/FAQ/FAQ.component.ts(32,41): error TS2304: Cannot find name 'private'.
+    src/app/FAQ/FAQ.component.ts(32,49): error TS2304: Cannot find name 'router'.
+    src/app/FAQ/FAQ.component.ts(34,3): error TS2304: Cannot find name 'ngOnInit'.
+    src/app/FAQ/FAQ.component.ts(41,3): error TS2304: Cannot find name 'hentAlleFAQ'.
+    src/app/FAQ/FAQ.component.ts(43,5): error TS2347: Untyped function calls may not accept type arguments.
+    src/app/FAQ/FAQ.component.ts(52,3): error TS2304: Cannot find name 'hentAlleKontakter'.
+    src/app/FAQ/FAQ.component.ts(54,5): error TS2347: Untyped function calls may not accept type arguments.
+    src/app/FAQ/FAQ.component.ts(64,3): error TS2304: Cannot find name 'hentAlleKategorier'.
+    src/app/FAQ/FAQ.component.ts(66,5): error TS2347: Untyped function calls may not accept type arguments.
+    src/app/FAQ/FAQ.component.ts(77,3): error TS2304: Cannot find name 'stemmerJa'.
+    src/app/FAQ/FAQ.component.ts(77,13): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(77,17): error TS2693: 'number' only refers to a type, but is being used as a value here.
+    src/app/FAQ/FAQ.component.ts(78,51): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(81,34): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(91,3): error TS2304: Cannot find name 'stemmerNei'.
+    src/app/FAQ/FAQ.component.ts(91,14): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(91,18): error TS2693: 'number' only refers to a type, but is being used as a value here.
+    src/app/FAQ/FAQ.component.ts(92,51): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(95,35): error TS2304: Cannot find name 'id'.
+    
+
+ (ce05b5a5)
+2020-11-06T14:51:23.5913020+01:00  [ERR] ERROR in app/FAQ/FAQ.component.ts:43:23 - error TS1005: ',' expected.
+
+43   constructor(private http: HttpClient, private router: Router) { }
+                         ~~~~
+app/FAQ/FAQ.component.ts:43:27 - error TS1005: ',' expected.
+
+43   constructor(private http: HttpClient, private router: Router) { }
+                             ~
+app/FAQ/FAQ.component.ts:43:49 - error TS1005: ',' expected.
+
+43   constructor(private http: HttpClient, private router: Router) { }
+                                                   ~~~~~~
+app/FAQ/FAQ.component.ts:43:55 - error TS1005: ',' expected.
+
+43   constructor(private http: HttpClient, private router: Router) { }
+                                                         ~
+app/FAQ/FAQ.component.ts:43:65 - error TS1005: ';' expected.
+
+43   constructor(private http: HttpClient, private router: Router) { }
+                                                                   ~
+app/FAQ/FAQ.component.ts:45:14 - error TS1005: ';' expected.
+
+45   ngOnInit() {
+                ~
+app/FAQ/FAQ.component.ts:52:17 - error TS1005: ';' expected.
+
+52   hentAlleFAQ() {
+                   ~
+app/FAQ/FAQ.component.ts:63:23 - error TS1005: ';' expected.
+
+63   hentAlleKontakter() {
+                         ~
+app/FAQ/FAQ.component.ts:75:24 - error TS1005: ';' expected.
+
+75   hentAlleKategorier() {
+                          ~
+app/FAQ/FAQ.component.ts:88:15 - error TS1005: ',' expected.
+ (8140f3fb)
+2020-11-06T14:51:24.2648720+01:00  [ERR] 
+88   stemmerJa(id: number) {
+                 ~
+app/FAQ/FAQ.component.ts:88:25 - error TS1005: ';' expected.
+
+88   stemmerJa(id: number) {
+                           ~
+app/FAQ/FAQ.component.ts:102:16 - error TS1005: ',' expected.
+
+102   stemmerNei(id: number) {
+                   ~
+app/FAQ/FAQ.component.ts:102:26 - error TS1005: ';' expected.
+
+102   stemmerNei(id: number) {
+                             ~
+app/FAQ/FAQ.component.ts:115:1 - error TS1128: Declaration or statement expected.
+
+115 }
+    ~
+
+    
+ (9685c046)
+2020-11-06T14:51:24.2946930+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(25,4): error TS2304: Cannot find name 'ViewChildren'.
+    src/app/FAQ/FAQ.component.ts(25,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(26,4): error TS2304: Cannot find name 'ViewChildren'.
+    src/app/FAQ/FAQ.component.ts(26,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,3): error TS2300: Duplicate identifier 'children'.
+    src/app/FAQ/FAQ.component.ts(34,1): error TS2304: Cannot find name 'closeAllParent'.
+    src/app/FAQ/FAQ.component.ts(38,1): error TS2304: Cannot find name 'closeAllChildren'.
+    src/app/FAQ/FAQ.component.ts(43,3): error TS2304: Cannot find name 'constructor'.
+    src/app/FAQ/FAQ.component.ts(43,15): error TS2304: Cannot find name 'private'.
+    src/app/FAQ/FAQ.component.ts(43,23): error TS2304: Cannot find name 'http'.
+    src/app/FAQ/FAQ.component.ts(43,41): error TS2304: Cannot find name 'private'.
+    src/app/FAQ/FAQ.component.ts(43,49): error TS2304: Cannot find name 'router'.
+    src/app/FAQ/FAQ.component.ts(45,3): error TS2304: Cannot find name 'ngOnInit'.
+    src/app/FAQ/FAQ.component.ts(52,3): error TS2304: Cannot find name 'hentAlleFAQ'.
+    src/app/FAQ/FAQ.component.ts(54,5): error TS2347: Untyped function calls may not accept type arguments.
+    src/app/FAQ/FAQ.component.ts(63,3): error TS2304: Cannot find name 'hentAlleKontakter'.
+    src/app/FAQ/FAQ.component.ts(65,5): error TS2347: Untyped function calls may not accept type arguments.
+    src/app/FAQ/FAQ.component.ts(75,3): error TS2304: Cannot find name 'hentAlleKategorier'.
+    src/app/FAQ/FAQ.component.ts(77,5): error TS2347: Untyped function calls may not accept type arguments.
+    src/app/FAQ/FAQ.component.ts(88,3): error TS2304: Cannot find name 'stemmerJa'.
+    src/app/FAQ/FAQ.component.ts(88,13): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(88,17): error TS2693: 'number' only refers to a type, but is being used as a value here.
+ (0d97bea1)
+2020-11-06T14:51:39.4971830+01:00  [ERR]     src/app/FAQ/FAQ.component.ts(89,51): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(92,34): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(102,3): error TS2304: Cannot find name 'stemmerNei'.
+    src/app/FAQ/FAQ.component.ts(102,14): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(102,18): error TS2693: 'number' only refers to a type, but is being used as a value here.
+    src/app/FAQ/FAQ.component.ts(103,51): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(106,35): error TS2304: Cannot find name 'id'.
+    
+    
+ (727b2ff1)
+2020-11-06T14:51:39.5008310+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(25,4): error TS2304: Cannot find name 'ViewChildren'.
+    src/app/FAQ/FAQ.component.ts(25,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(26,4): error TS2304: Cannot find name 'ViewChildren'.
+    src/app/FAQ/FAQ.component.ts(26,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,3): error TS2300: Duplicate identifier 'children'.
+    
+ (34db9d31)
+2020-11-06T14:52:46.0943840+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(27,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(30,3): error TS2300: Duplicate identifier 'children'.
+    
+ (263f610a)
+2020-11-06T14:53:45.3562480+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(27,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(30,3): error TS2300: Duplicate identifier 'children'.
+    
+    
+ (f5a0ae8f)
+2020-11-06T14:53:45.3603320+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(27,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(30,3): error TS2300: Duplicate identifier 'children'.
+    
+ (263f610a)
+2020-11-06T14:54:41.5451810+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(27,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(30,3): error TS2300: Duplicate identifier 'children'.
+    
+ (263f610a)
+2020-11-06T14:55:00.8358870+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(27,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(30,3): error TS2300: Duplicate identifier 'children'.
+    
+ (263f610a)
+2020-11-06T14:56:05.8355110+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(27,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(30,3): error TS2300: Duplicate identifier 'children'.
+    
+    
+ (f5a0ae8f)
+2020-11-06T14:56:05.8716580+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(27,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(30,3): error TS2300: Duplicate identifier 'children'.
+    
+ (263f610a)
+2020-11-06T14:56:38.5531720+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(27,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(30,3): error TS2300: Duplicate identifier 'children'.
+    
+ (263f610a)
+2020-11-06T14:56:47.9500790+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(27,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(30,3): error TS2300: Duplicate identifier 'children'.
+    
+ (263f610a)
+2020-11-06T14:57:03.8244770+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(27,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(30,3): error TS2300: Duplicate identifier 'children'.
+    
+ (263f610a)
+2020-11-06T14:57:19.7254070+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(27,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(30,3): error TS2300: Duplicate identifier 'children'.
+    
+ (263f610a)
+2020-11-06T14:58:03.0892290+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(27,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(30,3): error TS2300: Duplicate identifier 'children'.
+    
+ (263f610a)
+2020-11-06T14:59:00.1265260+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(27,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(30,3): error TS2300: Duplicate identifier 'children'.
+    
+ (263f610a)
+2020-11-06T14:59:16.6181670+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(27,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(30,3): error TS2300: Duplicate identifier 'children'.
+    
+ (263f610a)
+2020-11-06T14:59:45.9115740+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(27,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(30,3): error TS2300: Duplicate identifier 'children'.
+    
+    
+ (f5a0ae8f)
+2020-11-06T14:59:59.1806210+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(27,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(30,3): error TS2300: Duplicate identifier 'children'.
+    
+    
+ (f5a0ae8f)
+2020-11-06T14:59:59.1858430+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(27,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(30,3): error TS2300: Duplicate identifier 'children'.
+    
+ (263f610a)
+2020-11-06T15:00:18.7382280+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(27,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(30,3): error TS2300: Duplicate identifier 'children'.
+    
+ (263f610a)
+2020-11-06T15:00:25.0680000+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(27,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(30,3): error TS2300: Duplicate identifier 'children'.
+    
+ (263f610a)
+2020-11-06T15:00:53.9454850+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(27,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(30,3): error TS2300: Duplicate identifier 'children'.
+    
+ (263f610a)
+2020-11-06T15:01:01.4544130+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(27,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(30,3): error TS2300: Duplicate identifier 'children'.
+    
+ (263f610a)
+2020-11-06T15:01:15.4583450+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(27,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(30,3): error TS2300: Duplicate identifier 'children'.
+    
+ (263f610a)
+2020-11-06T15:01:40.2430020+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(27,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(30,3): error TS2300: Duplicate identifier 'children'.
+    
+ (263f610a)
+2020-11-06T15:02:51.9617650+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(27,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(30,3): error TS2300: Duplicate identifier 'children'.
+    
+    
+ (f5a0ae8f)
+2020-11-06T15:02:51.9674100+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(27,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(30,3): error TS2300: Duplicate identifier 'children'.
+    
+ (263f610a)
+2020-11-06T15:03:24.9602990+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(27,36): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(28,42): error TS2304: Cannot find name 'QueryList'.
+    src/app/FAQ/FAQ.component.ts(30,3): error TS2300: Duplicate identifier 'children'.
+    
+ (263f610a)
+2020-11-06T15:14:21.5156700+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-06T15:14:21.5236870+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-06T15:14:21.5265160+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-06T15:14:21.5289200+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-06T15:26:10.0724980+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-06T15:26:10.0803400+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-06T15:26:10.0832260+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-06T15:26:10.0865230+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-06T15:29:49.8680750+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-06T15:29:49.8757360+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-06T15:29:49.8787880+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-06T15:29:49.8813690+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)

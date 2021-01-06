@@ -1,0 +1,104 @@
+<div>
+    <h1>Kontakt Kundeservice</h1> <br />
+
+    <h4>Spørsmål eller tilbakemeldinger? Ta kontakt med Kundeservice.</h4>
+    <p>Send oss en melding i skjemaet under. Din henvendelse vil bli besvart så raskt som mulig innenfor vanlig kontortid.</p>
+    <p>
+        Adresse administrasjon: <br />
+        NOR-WAY Bussekspress AS <br />
+        Karl Johans gate 16, 0154 Oslo <br />
+    </p>
+    <br />
+
+    <p>Kanskje vi allerede har svar på det du lurer på?</p>
+    <button class="btn btn-sm btn-outline-primary" routerLink="/FAQ">Ofte stilte spørsmål</button>
+    <br /><br />
+
+    <h3>Kontaktskjema</h3> <br />
+    <form [formGroup]="Skjema" (ngSubmit)="onSubmit()">
+        <table>
+            <tr>
+                <td>
+                    <label>Fornavn*</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" formControlName="fornavn" />
+                </td>
+            </tr>
+            <tr>
+                <td style="color: red" [hidden]="Skjema.controls.fornavn.valid || (Skjema.controls.fornavn.pristine && !submitted)">
+                    Fornavn må bestå av 2 til 20 bokstaver
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Etternavn*</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" formControlName="etternavn" />
+                </td>
+            </tr>
+            <tr>
+                <td style="color: red" [hidden]="Skjema.controls.etternavn.valid || (Skjema.controls.etternavn.pristine && !submitted)">
+                    Etternavn må bestå av 2 til 20 bokstaver
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>E-mail*</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" formControlName="email" />
+                </td>
+            </tr>
+            <tr>
+                <td style="color: red" [hidden]="Skjema.controls.email.valid || (Skjema.controls.email.pristine && !submitted)">
+                    E-mail må være i riktig format.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Telefon</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" formControlName="telefon" />
+                </td>
+            </tr>
+            <tr>
+                <td style="color: red" [hidden]="Skjema.controls.telefon.valid || (Skjema.controls.telefon.pristine && !submitted)">
+                    Telefon må bestå av 8 nummer.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Din melding*</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea formControlName="melding" cols="40" rows="5" oninput="auto_height(this)"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td style="color: red" [hidden]="Skjema.controls.melding.valid || (Skjema.controls.melding.pristine && !submitted)">
+                </td>
+            </tr>
+            <tr>
+                <td>* betyr at feltene er obligatorisk å fylle ut</td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="btn btn-success" type="submit" [disabled]="!Skjema.valid" (click)="bekreft()">Send</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>

@@ -1,0 +1,575 @@
+2020-11-04T09:13:13.0447320+01:00  [ERR] ERROR in app/FAQ/FAQ.component.ts:101:40 - error TS1005: ')' expected.
+
+101         () => console.log("Stemme: ja");
+                                           ~
+app/FAQ/FAQ.component.ts:102:5 - error TS1128: Declaration or statement expected.
+
+102     );
+        ~
+app/FAQ/FAQ.component.ts:115:41 - error TS1005: ')' expected.
+
+115         () => console.log("Stemme: nei");
+                                            ~
+app/FAQ/FAQ.component.ts:116:5 - error TS1128: Declaration or statement expected.
+
+116     );
+        ~
+
+    
+ (a1b98a7e)
+2020-11-04T09:13:13.0502720+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(92,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(93,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    src/app/FAQ/FAQ.component.ts(106,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(107,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    
+ (ede6dff4)
+2020-11-04T09:13:57.8292020+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(92,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(93,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    src/app/FAQ/FAQ.component.ts(106,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(107,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    
+ (ede6dff4)
+2020-11-04T09:15:20.4791350+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(92,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(93,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    src/app/FAQ/FAQ.component.ts(106,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(107,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    
+    
+ (9c29705d)
+2020-11-04T09:15:20.4955230+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(92,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(93,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    src/app/FAQ/FAQ.component.ts(106,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(107,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    
+ (ede6dff4)
+2020-11-04T09:15:45.2510150+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(92,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(93,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    src/app/FAQ/FAQ.component.ts(106,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(107,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    
+ (ede6dff4)
+2020-11-04T09:15:57.9791300+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(92,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(93,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    src/app/FAQ/FAQ.component.ts(106,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(107,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    
+ (ede6dff4)
+2020-11-04T09:16:50.4832530+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(92,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(93,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    src/app/FAQ/FAQ.component.ts(106,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(107,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    
+ (ede6dff4)
+2020-11-04T09:16:50.6023620+01:00 0HM401I3QSS7H:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Net.WebSockets.WebSocketException (0x80004005): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+   at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+   at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-11-04T09:16:50.6294080+01:00 0HM401I3QSS7H:00000001 [WRN] The response has already started, the error page middleware will not be executed. (e1dd4c0d)
+2020-11-04T09:16:50.6641630+01:00 0HM401I3QSS7H:00000001 [ERR] Connection id ""0HM401I3QSS7H"", Request id ""0HM401I3QSS7H:00000001"": An unhandled exception was thrown by the application. (560e7d32)
+System.Net.WebSockets.WebSocketException (0x80004005): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+   at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+   at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-11-04T09:17:19.9666130+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(92,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(93,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    src/app/FAQ/FAQ.component.ts(106,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(107,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    
+ (ede6dff4)
+2020-11-04T09:18:44.1710020+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(92,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(93,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    src/app/FAQ/FAQ.component.ts(106,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(107,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    
+ (ede6dff4)
+2020-11-04T09:18:59.5659900+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(92,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(93,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    src/app/FAQ/FAQ.component.ts(106,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(107,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    
+ (ede6dff4)
+2020-11-04T09:19:06.4756870+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(92,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(93,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    src/app/FAQ/FAQ.component.ts(106,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(107,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    
+ (ede6dff4)
+2020-11-04T09:21:02.5679430+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(92,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(93,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    src/app/FAQ/FAQ.component.ts(106,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(107,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    
+ (ede6dff4)
+2020-11-04T09:22:05.0628510+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(92,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(93,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    src/app/FAQ/FAQ.component.ts(106,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(107,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    
+    
+ (9c29705d)
+2020-11-04T09:22:05.0771770+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(92,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(93,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    src/app/FAQ/FAQ.component.ts(106,54): error TS2552: Cannot find name 'id'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(107,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    
+ (ede6dff4)
+2020-11-04T09:22:54.5546080+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(93,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    src/app/FAQ/FAQ.component.ts(107,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    
+ (cd4890bb)
+2020-11-04T09:23:25.9019560+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(93,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    src/app/FAQ/FAQ.component.ts(107,5): error TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.
+    
+ (cd4890bb)
+2020-11-04T09:44:22.7808710+01:00 0HM401I3QSS78:00000092 [INF] Vurdering ble ikke registrert (8e012c26)
+2020-11-04T09:44:23.3555160+01:00 0HM401I3QSS78:00000093 [INF] Vurdering ble ikke registrert (8e012c26)
+2020-11-04T09:44:23.8793770+01:00 0HM401I3QSS78:00000094 [INF] Vurdering ble ikke registrert (8e012c26)
+2020-11-04T09:44:24.0686790+01:00 0HM401I3QSS78:00000095 [INF] Vurdering ble ikke registrert (8e012c26)
+2020-11-04T09:44:24.2451830+01:00 0HM401I3QSS78:00000096 [INF] Vurdering ble ikke registrert (8e012c26)
+2020-11-04T09:44:26.5484570+01:00 0HM401I3QSS78:0000009B [INF] Vurdering ble ikke registrert (8e012c26)
+2020-11-04T09:44:28.1660970+01:00 0HM401I3QSS78:0000009C [INF] Vurdering ble ikke registrert (8e012c26)
+2020-11-04T09:44:29.1905440+01:00 0HM401I3QSS78:0000009D [INF] Vurdering ble ikke registrert (8e012c26)
+2020-11-04T09:44:43.2101170+01:00 0HM401I3QSS78:000000A5 [INF] Vurdering ble ikke registrert (8e012c26)
+2020-11-04T09:46:00.1119730+01:00 0HM401I3QSS78:000000A8 [INF] Vurdering ble ikke registrert (8e012c26)
+2020-11-04T09:46:00.5145490+01:00 0HM401I3QSS78:000000A9 [INF] Vurdering ble ikke registrert (8e012c26)
+2020-11-04T09:46:15.6756430+01:00 0HM401I3QSS78:000000AD [INF] Vurdering ble ikke registrert (8e012c26)
+2020-11-04T09:46:16.0964190+01:00 0HM401I3QSS78:000000AE [INF] Vurdering ble ikke registrert (8e012c26)
+2020-11-04T09:46:42.4803840+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-04T09:46:42.4879440+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-04T09:46:42.4903970+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-04T09:46:42.4937040+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-04T10:03:23.1419310+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(65,5): error TS2554: Expected 1 arguments, but got 0.
+    
+ (668e9baf)
+2020-11-04T10:23:11.9753450+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-04T10:23:11.9851820+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-04T10:23:11.9883150+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-04T10:23:11.9913690+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-04T10:25:25.2173150+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-04T10:25:25.2238510+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-04T10:25:25.2266120+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-04T10:25:25.2293890+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-04T10:27:10.8223180+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-04T10:27:10.8302240+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-04T10:27:10.8330610+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-04T10:27:10.8359920+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-04T10:28:29.0065430+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-04T10:28:29.0159430+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-04T10:28:29.0187540+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-04T10:28:29.0218060+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-04T10:30:26.5119220+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-04T10:30:26.5206160+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-04T10:30:26.5237140+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-04T10:30:26.5260190+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-04T10:33:51.9064010+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-04T10:33:51.9696880+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-04T10:33:51.9884990+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-04T10:33:52.0072950+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-04T10:46:56.6966240+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(19,10): error TS2300: Duplicate identifier 'jaStemme'.
+    src/app/FAQ/FAQ.component.ts(92,3): error TS2300: Duplicate identifier 'jaStemme'.
+    
+ (824d40ad)
+2020-11-04T10:47:48.9910420+01:00  [ERR] ERROR in app/FAQ/FAQ.component.ts:67:17 - error TS1005: ';' expected.
+
+67   hentAlleFAQ() {
+                   ~
+app/FAQ/FAQ.component.ts:78:23 - error TS1005: ';' expected.
+
+78   hentAlleKontakter() {
+                         ~
+app/FAQ/FAQ.component.ts:91:14 - error TS1005: ',' expected.
+
+91   jaStemme(Id: number) {
+                ~
+app/FAQ/FAQ.component.ts:91:24 - error TS1005: ';' expected.
+
+91   jaStemme(Id: number) {
+                          ~
+app/FAQ/FAQ.component.ts:105:15 - error TS1005: ',' expected.
+
+105   neiStemme(Id: number) {
+                  ~
+app/FAQ/FAQ.component.ts:105:25 - error TS1005: ';' expected.
+
+105   neiStemme(Id: number) {
+                            ~
+
+ (f02ceacb)
+2020-11-04T10:47:49.7942250+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(63,10): error TS2339: Property 'hentAlleFAQ' does not exist on type 'FAQComponent'.
+    src/app/FAQ/FAQ.component.ts(64,10): error TS2339: Property 'hentAlleKontakter' does not exist on type 'FAQComponent'.
+    src/app/FAQ/FAQ.component.ts(67,3): error TS2304: Cannot find name 'hentAlleFAQ'.
+    src/app/FAQ/FAQ.component.ts(78,3): error TS2304: Cannot find name 'hentAlleKontakter'.
+    src/app/FAQ/FAQ.component.ts(91,3): error TS2304: Cannot find name 'jaStemme'.
+    src/app/FAQ/FAQ.component.ts(91,12): error TS2304: Cannot find name 'Id'.
+    src/app/FAQ/FAQ.component.ts(91,16): error TS2693: 'number' only refers to a type, but is being used as a value here.
+    src/app/FAQ/FAQ.component.ts(92,48): error TS2304: Cannot find name 'Id'.
+    src/app/FAQ/FAQ.component.ts(95,34): error TS2304: Cannot find name 'Id'.
+    src/app/FAQ/FAQ.component.ts(105,3): error TS2304: Cannot find name 'neiStemme'.
+    src/app/FAQ/FAQ.component.ts(105,13): error TS2304: Cannot find name 'Id'.
+    src/app/FAQ/FAQ.component.ts(105,17): error TS2693: 'number' only refers to a type, but is being used as a value here.
+    src/app/FAQ/FAQ.component.ts(106,45): error TS2304: Cannot find name 'Id'.
+    src/app/FAQ/FAQ.component.ts(109,35): error TS2304: Cannot find name 'Id'.
+    
+ (69a1b636)
+2020-11-04T10:47:56.7915530+01:00  [ERR] ERROR in app/FAQ/FAQ.component.ts:67:17 - error TS1005: ';' expected.
+
+67   hentAlleFAQ() {
+                   ~
+app/FAQ/FAQ.component.ts:78:23 - error TS1005: ';' expected.
+
+78   hentAlleKontakter() {
+                         ~
+app/FAQ/FAQ.component.ts:91:14 - error TS1005: ',' expected.
+
+91   jaStemme(Id: number) {
+                ~
+app/FAQ/FAQ.component.ts:91:24 - error TS1005: ';' expected.
+
+91   jaStemme(Id: number) {
+                          ~
+app/FAQ/FAQ.component.ts:105:15 - error TS1005: ',' expected.
+
+105   neiStemme(Id: number) {
+                  ~
+app/FAQ/FAQ.component.ts:105:25 - error TS1005: ';' expected.
+
+105   neiStemme(Id: number) {
+                            ~
+app/FAQ/FAQ.component.ts:148:3 - error TS1005: '}' expected.
+
+148 */
+      
+
+ (b903d20d)
+2020-11-04T10:47:57.4222520+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(63,10): error TS2339: Property 'hentAlleFAQ' does not exist on type 'FAQComponent'.
+    src/app/FAQ/FAQ.component.ts(64,10): error TS2339: Property 'hentAlleKontakter' does not exist on type 'FAQComponent'.
+    src/app/FAQ/FAQ.component.ts(67,3): error TS2304: Cannot find name 'hentAlleFAQ'.
+    src/app/FAQ/FAQ.component.ts(78,3): error TS2304: Cannot find name 'hentAlleKontakter'.
+    src/app/FAQ/FAQ.component.ts(91,3): error TS2304: Cannot find name 'jaStemme'.
+    src/app/FAQ/FAQ.component.ts(91,12): error TS2304: Cannot find name 'Id'.
+    src/app/FAQ/FAQ.component.ts(91,16): error TS2693: 'number' only refers to a type, but is being used as a value here.
+    src/app/FAQ/FAQ.component.ts(92,48): error TS2304: Cannot find name 'Id'.
+    src/app/FAQ/FAQ.component.ts(95,34): error TS2304: Cannot find name 'Id'.
+    src/app/FAQ/FAQ.component.ts(105,3): error TS2304: Cannot find name 'neiStemme'.
+    src/app/FAQ/FAQ.component.ts(105,13): error TS2304: Cannot find name 'Id'.
+    src/app/FAQ/FAQ.component.ts(105,17): error TS2693: 'number' only refers to a type, but is being used as a value here.
+    src/app/FAQ/FAQ.component.ts(106,45): error TS2304: Cannot find name 'Id'.
+    src/app/FAQ/FAQ.component.ts(109,35): error TS2304: Cannot find name 'Id'.
+    
+ (69a1b636)
+2020-11-04T10:48:16.4775540+01:00  [ERR] ERROR in app/FAQ/FAQ.component.ts:65:16 - error TS1005: ',' expected.
+
+65     jaStemme(Id: number);
+                  ~
+
+    
+ (6516a05c)
+2020-11-04T10:48:16.5000280+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(65,5): error TS2663: Cannot find name 'jaStemme'. Did you mean the instance member 'this.jaStemme'?
+    src/app/FAQ/FAQ.component.ts(65,14): error TS2304: Cannot find name 'Id'.
+    src/app/FAQ/FAQ.component.ts(65,18): error TS2693: 'number' only refers to a type, but is being used as a value here.
+    
+ (ab3ba4bc)
+2020-11-04T10:48:30.4232870+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(65,5): error TS2663: Cannot find name 'jaStemme'. Did you mean the instance member 'this.jaStemme'?
+    
+ (5038cf80)
+2020-11-04T10:48:45.4802370+01:00  [ERR] ERROR in app/FAQ/FAQ.component.ts:65:21 - error TS1005: ',' expected.
+
+65     this.jaStemme(Id: number);
+                       ~
+
+ (5a663675)
+2020-11-04T10:48:46.2708430+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(65,19): error TS2304: Cannot find name 'Id'.
+    src/app/FAQ/FAQ.component.ts(65,23): error TS2554: Expected 1 arguments, but got 2.
+    src/app/FAQ/FAQ.component.ts(65,23): error TS2693: 'number' only refers to a type, but is being used as a value here.
+    
+ (ad5ef0dc)
+2020-11-04T10:48:53.0130280+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(65,19): error TS2304: Cannot find name 'Id'.
+    
+ (74d364c4)
+2020-11-04T10:49:09.1581450+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(65,19): error TS2345: Argument of type '(Id: number) => void' is not assignable to parameter of type 'number'.
+    
+ (8f54fe3c)
+2020-11-04T10:49:16.8049360+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(65,5): error TS2554: Expected 1 arguments, but got 0.
+    
+ (668e9baf)
+2020-11-04T11:36:02.5794530+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-04T11:36:02.5874750+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-04T11:36:02.5905910+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-04T11:36:02.5930030+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-04T11:36:49.5718930+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-04T11:36:49.5801000+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-04T11:36:49.5833350+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-04T11:36:49.5881810+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-04T11:42:11.2606910+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-04T11:42:11.2650730+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-11-04T11:42:11.2656290+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-04T11:42:11.2656760+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-04T11:42:11.2657310+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-04T12:18:07.6687370+01:00 0HM40LP4K65Q8:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Net.WebSockets.WebSocketException (0x80004005): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+   at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+   at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-11-04T12:18:07.6909640+01:00 0HM40LP4K65Q8:00000001 [WRN] The response has already started, the error page middleware will not be executed. (e1dd4c0d)
+2020-11-04T12:18:07.7380440+01:00 0HM40LP4K65Q8:00000001 [ERR] Connection id ""0HM40LP4K65Q8"", Request id ""0HM40LP4K65Q8:00000001"": An unhandled exception was thrown by the application. (560e7d32)
+System.Net.WebSockets.WebSocketException (0x80004005): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+   at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+   at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-11-04T12:21:28.7834730+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-04T12:21:28.7874900+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-11-04T12:21:28.7879780+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-04T12:21:28.7880180+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-04T12:21:28.7880580+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-04T12:30:20.8438210+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-04T12:30:20.8509880+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-04T12:30:20.8535510+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-04T12:30:20.8559610+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-04T12:52:13.2850020+01:00  [ERR] ERROR in app/kontakt/kontakt.component.ts:83:9 - error TS1005: ',' expected.
+
+83         this.router.navigate(['/FAQ/FAQ']);
+           ~~~~
+app/kontakt/kontakt.component.ts:83:43 - error TS1005: ')' expected.
+
+83         this.router.navigate(['/FAQ/FAQ']);
+                                             ~
+app/kontakt/kontakt.component.ts:84:7 - error TS1128: Declaration or statement expected.
+
+84       );
+         ~
+
+ (bfc04741)
+2020-11-04T13:02:58.4119960+01:00 0HM40MK1NJ2M1:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Net.WebSockets.WebSocketException (2): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+   at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+   at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-11-04T13:02:58.4366800+01:00 0HM40MK1NJ2M1:00000001 [WRN] The response has already started, the error page middleware will not be executed. (e1dd4c0d)
+2020-11-04T13:02:58.4979380+01:00 0HM40MK1NJ2M1:00000001 [ERR] Connection id ""0HM40MK1NJ2M1"", Request id ""0HM40MK1NJ2M1:00000001"": An unhandled exception was thrown by the application. (560e7d32)
+System.Net.WebSockets.WebSocketException (2): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+   at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+   at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-11-04T13:24:13.0078600+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(83,9): error TS2345: Argument of type 'Promise<boolean>' is not assignable to parameter of type '() => void'.
+      Type 'Promise<boolean>' provides no match for the signature '(): void'.
+    
+
+ (7a79f212)
+2020-11-04T13:24:13.1214920+01:00  [ERR] ERROR in app/kontakt/kontakt.component.ts:90:11 - error TS1005: ';' expected.
+
+90 bekreft() {
+             ~
+app/kontakt/kontakt.component.ts:94:12 - error TS1005: ';' expected.
+
+94 visModal() {
+              ~
+
+ (bc10050c)
+2020-11-04T13:35:50.2842900+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(90,1): error TS2304: Cannot find name 'bekreft'.
+    src/app/kontakt/kontakt.component.ts(94,1): error TS2304: Cannot find name 'visModal'.
+    
+
+ (9e1978be)
+2020-11-04T13:35:50.4099680+01:00  [ERR] ERROR in app/kontakt/kontakt.component.ts:92:11 - error TS1005: ';' expected.
+
+92 bekreft() {
+             ~
+
+ (cb09f51a)
+2020-11-04T13:36:09.0071310+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(92,1): error TS2304: Cannot find name 'bekreft'.
+    
+
+ (d2013483)
+2020-11-04T13:36:09.0717540+01:00  [ERR] ERROR in app/kontakt/kontakt.component.ts:92:11 - error TS1005: ';' expected.
+
+92 bekreft() {
+             ~
+
+ (cb09f51a)
+2020-11-04T13:36:10.3369890+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(92,1): error TS2304: Cannot find name 'bekreft'.
+    
+ (80aa9317)
+2020-11-04T13:39:42.8438300+01:00  [ERR] ERROR in app/kontakt/kontakt.component.ts:92:11 - error TS1005: ';' expected.
+
+92 bekreft() {
+             ~
+
+ (cb09f51a)
+2020-11-04T13:39:43.7971330+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(92,1): error TS2304: Cannot find name 'bekreft'.
+    
+ (80aa9317)
+2020-11-04T13:44:11.5326130+01:00  [ERR] ERROR in app/kontakt/kontakt.component.ts:92:11 - error TS1005: ';' expected.
+
+92 bekreft() {
+             ~
+
+ (cb09f51a)
+2020-11-04T13:44:29.2783060+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(92,1): error TS2304: Cannot find name 'bekreft'.
+    
+
+ (d2013483)
+2020-11-04T13:44:29.3572920+01:00  [ERR] ERROR in app/kontakt/kontakt.component.ts:92:11 - error TS1005: ';' expected.
+
+92 bekreft() {
+             ~
+
+ (cb09f51a)
+2020-11-04T13:44:30.3622110+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(92,1): error TS2304: Cannot find name 'bekreft'.
+    
+ (80aa9317)
+2020-11-04T13:48:18.1155640+01:00  [ERR] ERROR in app/kontakt/kontakt.component.ts:92:11 - error TS1005: ';' expected.
+
+92 bekreft() {
+             ~
+
+ (cb09f51a)
+2020-11-04T13:48:18.9448400+01:00  [ERR]     ERROR in src/app/kontakt/kontakt.component.ts(92,1): error TS2304: Cannot find name 'bekreft'.
+    
+ (80aa9317)
+2020-11-04T13:48:57.3615370+01:00  [ERR] ERROR in app/kontakt/kontakt.component.ts:65:14 - error TS1005: ';' expected.
+
+65   onSubmit() {
+                ~
+app/kontakt/kontakt.component.ts:88:18 - error TS1005: ';' expected.
+
+88   lagreKontakt() {
+                    ~
+app/kontakt/kontakt.component.ts:105:1 - error TS1128: Declaration or statement expected.
+
+105 }
+    ~
+
+ (a7330ca0)
+2020-11-04T13:49:05.4601300+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-04T13:49:05.4677720+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-04T13:49:05.4720790+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-04T13:49:05.4773480+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-04T13:49:15.1294020+01:00  [ERR] ERROR in app/kontakt/kontakt.component.ts:65:14 - error TS1005: ';' expected.
+
+65   onSubmit() {
+                ~
+app/kontakt/kontakt.component.ts:88:18 - error TS1005: ';' expected.
+
+88   lagreKontakt() {
+                    ~
+app/kontakt/kontakt.component.ts:105:1 - error TS1128: Declaration or statement expected.
+
+105 }
+    ~
+
+ (a7330ca0)
+2020-11-04T13:49:55.4469480+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-04T13:49:55.4569750+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-04T13:49:55.4604220+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-04T13:49:55.4673770+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-04T14:23:58.5924720+01:00  [ERR] ERROR in Source file not found: '/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell/ClientApp/src/app/FAQ/Kategori.ts'.
+ (0036691a)
+2020-11-04T14:25:28.0254910+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-04T14:25:28.0373870+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-04T14:25:28.0410720+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-04T14:25:28.0438190+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-04T16:21:54.1970610+01:00  [FTL] Unable to start Kestrel. (fc6a528d)
+System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+2020-11-04T16:22:26.5124460+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-04T16:22:26.5218760+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-04T16:22:26.5247300+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-04T16:22:26.5291000+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-04T16:31:53.0715780+01:00 0HM40QLNT85A7:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.AggregateException: One or more errors occurred. (The remote party closed the WebSocket connection without completing the close handshake.)
+ ---> System.Net.WebSockets.WebSocketException (9): The remote party closed the WebSocket connection without completing the close handshake. ---> System.Net.WebSockets.WebSocketException (9): The remote party closed the WebSocket connection without completing the close handshake.
+   at System.Net.WebSockets.ManagedWebSocket.ThrowIfEOFUnexpected(Boolean throwOnPrematureClosure)
+   at System.Net.WebSockets.ManagedWebSocket.EnsureBufferContainsAsync(Int32 minimumRequiredBytes, CancellationToken cancellationToken, Boolean throwOnPrematureClosure)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TWebSocketReceiveResultGetter,TWebSocketReceiveResult](Memory`1 payloadBuffer, CancellationToken cancellationToken, TWebSocketReceiveResultGetter resultGetter)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TWebSocketReceiveResultGetter,TWebSocketReceiveResult](Memory`1 payloadBuffer, CancellationToken cancellationToken, TWebSocketReceiveResultGetter resultGetter)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-11-04T16:31:53.0865390+01:00 0HM40QLNT85A7:00000001 [WRN] The response has already started, the error page middleware will not be executed. (e1dd4c0d)
+2020-11-04T16:31:53.1048320+01:00 0HM40QLNT85A7:00000001 [ERR] Connection id ""0HM40QLNT85A7"", Request id ""0HM40QLNT85A7:00000001"": An unhandled exception was thrown by the application. (560e7d32)
+System.AggregateException: One or more errors occurred. (The remote party closed the WebSocket connection without completing the close handshake.)
+ ---> System.Net.WebSockets.WebSocketException (9): The remote party closed the WebSocket connection without completing the close handshake. ---> System.Net.WebSockets.WebSocketException (9): The remote party closed the WebSocket connection without completing the close handshake.
+   at System.Net.WebSockets.ManagedWebSocket.ThrowIfEOFUnexpected(Boolean throwOnPrematureClosure)
+   at System.Net.WebSockets.ManagedWebSocket.EnsureBufferContainsAsync(Int32 minimumRequiredBytes, CancellationToken cancellationToken, Boolean throwOnPrematureClosure)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TWebSocketReceiveResultGetter,TWebSocketReceiveResult](Memory`1 payloadBuffer, CancellationToken cancellationToken, TWebSocketReceiveResultGetter resultGetter)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TWebSocketReceiveResultGetter,TWebSocketReceiveResult](Memory`1 payloadBuffer, CancellationToken cancellationToken, TWebSocketReceiveResultGetter resultGetter)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-11-04T16:51:11.0790530+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-04T16:51:11.0882570+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-04T16:51:11.0912010+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-04T16:51:11.0937910+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)

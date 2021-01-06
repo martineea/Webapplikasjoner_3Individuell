@@ -1,0 +1,54 @@
+﻿<!--Bibliotek for tommel opp/ ned-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<h1>FAQ</h1>
+<br />
+
+<h2>Ofte stilte spørsmål</h2>
+<p>Her finner du spørsmål og svar på våre mest vanlige spørsmål.</p>
+<br />
+
+<!--Tabell for Ofte stilte spørsmål-->
+
+<ngb-accordion>
+    <ngb-panel btn btn-primary *ngFor="let kategori of alleKategorier; index as i" title={{kategori.kategoriNavn}} id="ngb-panel-{{i}}">
+        <ng-template ngbPanelContent>
+            <ngb-accordion *ngFor="let FAQ of alleFAQ; index as k">
+                <ngb-panel *ngIf="FAQ.kategori === kategori.kategoriNavn" title="{{FAQ.sporsmal}}">
+                    <ng-template ngbPanelContent class="searchable sortable">
+                        {{FAQ.svar}}
+                        <hr>
+                        <p>Var dette svaret nyttig?</p>
+                        <button class="btn btn-success" [disabled]="klikket[k]" (click)="stemmerJa(FAQ.id); klikket[k]=true"><i class="material-icons">thumb_up</i></button>&nbsp;
+                        <strong> {{FAQ.jaStemme}}</strong>&nbsp;
+                        <button class="btn btn-danger" [disabled]="klikket[k]" (click)="stemmerNei(FAQ.id); klikket[k]=true"><i class="material-icons">thumb_down</i></button>&nbsp;
+                        <strong> {{ FAQ.neiStemme }} </strong><br /><br />
+                        <div *ngIf="klikket[k]" class="text-success">Takk for din tilbakemelding!</div>
+                    </ng-template>
+                </ngb-panel>
+            </ngb-accordion>
+            <br />
+        </ng-template>
+    </ngb-panel>
+</ngb-accordion>
+<br />
+<button class="btn btn-primary" routerLink="/kontakt">Fant ikke du svaret du lette etter? Send oss en melding. </button>
+<br />
+<br />
+
+<!--Tabell for innsendte kunde-spørsmål-->
+
+<h2>Nye spørsmål</h2>
+<br />
+<p>Når kunder sender inn spørsmål/ tilbakemeldinger vises det i tabellen under.</p>
+<br />
+<ngb-accordion>
+    <ngb-panel *ngFor="let kontakt of alleKontakter" title="{{kontakt.melding}}">
+        <ng-template ngbPanelContent>
+            <i style="color: grey">
+                Spørsmalet er under behandling og vil bli oppdatert av Nor-Way
+                sin kundeservice så fort som mulig.
+            </i>
+        </ng-template>
+    </ngb-panel>
+</ngb-accordion>

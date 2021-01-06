@@ -1,0 +1,19 @@
+﻿<div class="modal-content">
+    <div class="modal-header">
+        <h4 class="modal-title" id="modal-basic-title">Takk for din tilbakemelding!</h4>
+    </div>
+
+    <div class="modal-body">
+        <p>
+            Vi vil kontakte deg så fort vi kan på mail:
+            <i>"<strong>{{email}}</strong>"</i>
+        </p>
+        <p>Du vil nå bli sendt videre til FAQ hvor du kan følge status på din melding:</p>
+        <i>"<strong>{{melding}}</strong>"</i>
+    </div>
+
+    <div class="modal-footer">
+        <!-- den første knappen vil bli "default" dvs. kjøres når "enter" trykkes -->
+        <button type="button" class="btn btn-danger" (click)="modal.close('Lukk klikk')">Lukk</button>
+    </div>
+</div>

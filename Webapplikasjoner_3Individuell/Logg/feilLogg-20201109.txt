@@ -1,0 +1,292 @@
+2020-11-09T11:28:25.2475860+01:00  [ERR] ERROR in app/FAQ/FAQ.component.ts:44:4 - error TS1005: ')' expected.
+
+44   };
+      ~
+app/FAQ/FAQ.component.ts:46:23 - error TS1005: ';' expected.
+
+46   hentAlleKontakter() {
+                         ~
+app/FAQ/FAQ.component.ts:58:24 - error TS1005: ';' expected.
+
+58   hentAlleKategorier() {
+                          ~
+app/FAQ/FAQ.component.ts:71:15 - error TS1005: ',' expected.
+
+71   stemmerJa(id: number) {
+                 ~
+app/FAQ/FAQ.component.ts:71:25 - error TS1005: ';' expected.
+
+71   stemmerJa(id: number) {
+                           ~
+app/FAQ/FAQ.component.ts:85:16 - error TS1005: ',' expected.
+
+85   stemmerNei(id: number) {
+                  ~
+app/FAQ/FAQ.component.ts:85:26 - error TS1005: ';' expected.
+
+85   stemmerNei(id: number) {
+                            ~
+app/FAQ/FAQ.component.ts:98:2 - error TS1005: '}' expected.
+
+98 }
+    
+
+    
+ (9b49a319)
+2020-11-09T11:31:47.0986940+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(30,10): error TS2339: Property 'hentAlleKontakter' does not exist on type 'FAQComponent'.
+    src/app/FAQ/FAQ.component.ts(31,10): error TS2339: Property 'hentAlleKategorier' does not exist on type 'FAQComponent'.
+    src/app/FAQ/FAQ.component.ts(41,9): error TS2554: Expected 0-1 arguments, but got 3.
+    src/app/FAQ/FAQ.component.ts(46,3): error TS2304: Cannot find name 'hentAlleKontakter'.
+    src/app/FAQ/FAQ.component.ts(58,3): error TS2304: Cannot find name 'hentAlleKategorier'.
+    src/app/FAQ/FAQ.component.ts(71,3): error TS2304: Cannot find name 'stemmerJa'.
+    src/app/FAQ/FAQ.component.ts(71,13): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(71,17): error TS2693: 'number' only refers to a type, but is being used as a value here.
+    src/app/FAQ/FAQ.component.ts(72,51): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(75,34): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(85,3): error TS2304: Cannot find name 'stemmerNei'.
+    src/app/FAQ/FAQ.component.ts(85,14): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(85,18): error TS2693: 'number' only refers to a type, but is being used as a value here.
+    src/app/FAQ/FAQ.component.ts(86,51): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(89,35): error TS2304: Cannot find name 'id'.
+    
+
+ (739fd006)
+2020-11-09T11:31:58.0206980+01:00  [ERR] ERROR in app/FAQ/FAQ.component.ts:43:7 - error TS1128: Declaration or statement expected.
+
+43       );
+         ~
+
+
+ (54a9cd99)
+2020-11-09T11:31:58.0280800+01:00  [ERR] ERROR in app/FAQ/FAQ.component.ts:43:4 - error TS1005: ')' expected.
+
+43   };
+      ~
+app/FAQ/FAQ.component.ts:45:23 - error TS1005: ';' expected.
+
+45   hentAlleKontakter() {
+                         ~
+app/FAQ/FAQ.component.ts:57:24 - error TS1005: ';' expected.
+
+57   hentAlleKategorier() {
+                          ~
+app/FAQ/FAQ.component.ts:70:15 - error TS1005: ',' expected.
+
+70   stemmerJa(id: number) {
+                 ~
+app/FAQ/FAQ.component.ts:70:25 - error TS1005: ';' expected.
+
+70   stemmerJa(id: number) {
+                           ~
+app/FAQ/FAQ.component.ts:84:16 - error TS1005: ',' expected.
+
+84   stemmerNei(id: number) {
+                  ~
+app/FAQ/FAQ.component.ts:84:26 - error TS1005: ';' expected.
+
+84   stemmerNei(id: number) {
+                            ~
+app/FAQ/FAQ.component.ts:97:2 - error TS1005: '}' expected.
+
+97 }
+    
+
+ (66b1b2f2)
+2020-11-09T11:34:03.5440990+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(30,10): error TS2339: Property 'hentAlleKontakter' does not exist on type 'FAQComponent'.
+    src/app/FAQ/FAQ.component.ts(31,10): error TS2339: Property 'hentAlleKategorier' does not exist on type 'FAQComponent'.
+    src/app/FAQ/FAQ.component.ts(45,3): error TS2304: Cannot find name 'hentAlleKontakter'.
+    src/app/FAQ/FAQ.component.ts(57,3): error TS2304: Cannot find name 'hentAlleKategorier'.
+    src/app/FAQ/FAQ.component.ts(70,3): error TS2304: Cannot find name 'stemmerJa'.
+    src/app/FAQ/FAQ.component.ts(70,13): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(70,17): error TS2693: 'number' only refers to a type, but is being used as a value here.
+    src/app/FAQ/FAQ.component.ts(71,51): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(74,34): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(84,3): error TS2304: Cannot find name 'stemmerNei'.
+    src/app/FAQ/FAQ.component.ts(84,14): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(84,18): error TS2693: 'number' only refers to a type, but is being used as a value here.
+    src/app/FAQ/FAQ.component.ts(85,51): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(88,35): error TS2304: Cannot find name 'id'.
+    
+
+ (10e20fb2)
+2020-11-09T11:34:03.5712330+01:00  [ERR] ERROR in app/FAQ/FAQ.component.ts:45:7 - error TS1128: Declaration or statement expected.
+
+45       );
+         ~
+
+ (abc32744)
+2020-11-09T11:40:39.4670190+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-09T11:40:39.4741830+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-09T11:40:39.4767870+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-09T11:40:39.4791740+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-09T11:49:02.6583630+01:00 0HM44JFJ8IM04:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Net.WebSockets.WebSocketException (0x80004005): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+   at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+   at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-11-09T11:49:02.6744110+01:00 0HM44JFJ8IM04:00000001 [WRN] The response has already started, the error page middleware will not be executed. (e1dd4c0d)
+2020-11-09T11:49:02.6985760+01:00 0HM44JFJ8IM04:00000001 [ERR] Connection id ""0HM44JFJ8IM04"", Request id ""0HM44JFJ8IM04:00000001"": An unhandled exception was thrown by the application. (560e7d32)
+System.Net.WebSockets.WebSocketException (0x80004005): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+   at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+   at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-11-09T11:56:37.7576280+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(38,18): error TS2345: Argument of type '(a: any, b: any, c: any, d: any) => 1 | -1' is not assignable to parameter of type '(a: FAQ, b: FAQ) => number'.
+    
+    
+ (705e26a9)
+2020-11-09T11:56:37.7861150+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(38,18): error TS2345: Argument of type '(a: any, b: any, c: any, d: any) => 1 | -1' is not assignable to parameter of type '(a: FAQ, b: FAQ) => number'.
+    
+ (273cf8d8)
+2020-11-09T11:58:15.6361150+01:00  [ERR] ERROR in app/FAQ/FAQ.component.ts:39:54 - error TS1109: Expression expected.
+
+39           return a.jaStemme > b.jaStemme ? -1 : 1 && return a.neiStemme > b.neiStemme ? -1 : 1;
+                                                        ~~~~~~
+
+ (5967905e)
+2020-11-09T11:58:53.9397980+01:00  [ERR] ERROR in app/FAQ/FAQ.component.ts:46:4 - error TS1005: ')' expected.
+
+46   };
+      ~
+app/FAQ/FAQ.component.ts:48:23 - error TS1005: ';' expected.
+
+48   hentAlleKontakter() {
+                         ~
+app/FAQ/FAQ.component.ts:60:24 - error TS1005: ';' expected.
+
+60   hentAlleKategorier() {
+                          ~
+app/FAQ/FAQ.component.ts:73:15 - error TS1005: ',' expected.
+
+73   stemmerJa(id: number) {
+                 ~
+app/FAQ/FAQ.component.ts:73:25 - error TS1005: ';' expected.
+
+73   stemmerJa(id: number) {
+                           ~
+app/FAQ/FAQ.component.ts:87:16 - error TS1005: ',' expected.
+
+87   stemmerNei(id: number) {
+                  ~
+app/FAQ/FAQ.component.ts:87:26 - error TS1005: ';' expected.
+
+87   stemmerNei(id: number) {
+                            ~
+app/FAQ/FAQ.component.ts:100:2 - error TS1005: '}' expected.
+
+100 }
+     
+
+ (4561178f)
+2020-11-09T11:58:54.8013030+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(30,10): error TS2339: Property 'hentAlleKontakter' does not exist on type 'FAQComponent'.
+    src/app/FAQ/FAQ.component.ts(31,10): error TS2339: Property 'hentAlleKategorier' does not exist on type 'FAQComponent'.
+    src/app/FAQ/FAQ.component.ts(48,3): error TS2304: Cannot find name 'hentAlleKontakter'.
+    src/app/FAQ/FAQ.component.ts(60,3): error TS2304: Cannot find name 'hentAlleKategorier'.
+    src/app/FAQ/FAQ.component.ts(73,3): error TS2304: Cannot find name 'stemmerJa'.
+    src/app/FAQ/FAQ.component.ts(73,13): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(73,17): error TS2693: 'number' only refers to a type, but is being used as a value here.
+    src/app/FAQ/FAQ.component.ts(74,51): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(77,34): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(87,3): error TS2304: Cannot find name 'stemmerNei'.
+    src/app/FAQ/FAQ.component.ts(87,14): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(87,18): error TS2693: 'number' only refers to a type, but is being used as a value here.
+    src/app/FAQ/FAQ.component.ts(88,51): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(91,35): error TS2304: Cannot find name 'id'.
+    
+ (ef4790ef)
+2020-11-09T12:01:29.2810110+01:00  [ERR] ERROR in app/FAQ/FAQ.component.ts:42:9 - error TS1109: Expression expected.
+
+42         }),
+           ~
+
+ (fefec70c)
+2020-11-09T12:01:36.5377950+01:00  [ERR] ERROR in app/FAQ/FAQ.component.ts:41:9 - error TS1128: Declaration or statement expected.
+
+41         ),
+           ~
+app/FAQ/FAQ.component.ts:42:9 - error TS1109: Expression expected.
+
+42         }),
+           ~
+
+ (bbec515c)
+2020-11-09T12:01:42.2115430+01:00  [ERR] ERROR in app/FAQ/FAQ.component.ts:46:4 - error TS1005: ')' expected.
+
+46   };
+      ~
+app/FAQ/FAQ.component.ts:48:23 - error TS1005: ';' expected.
+
+48   hentAlleKontakter() {
+                         ~
+app/FAQ/FAQ.component.ts:60:24 - error TS1005: ';' expected.
+
+60   hentAlleKategorier() {
+                          ~
+app/FAQ/FAQ.component.ts:73:15 - error TS1005: ',' expected.
+
+73   stemmerJa(id: number) {
+                 ~
+app/FAQ/FAQ.component.ts:73:25 - error TS1005: ';' expected.
+
+73   stemmerJa(id: number) {
+                           ~
+app/FAQ/FAQ.component.ts:87:16 - error TS1005: ',' expected.
+
+87   stemmerNei(id: number) {
+                  ~
+app/FAQ/FAQ.component.ts:87:26 - error TS1005: ';' expected.
+
+87   stemmerNei(id: number) {
+                            ~
+app/FAQ/FAQ.component.ts:100:2 - error TS1005: '}' expected.
+
+100 }
+     
+
+    
+ (7a9918be)
+2020-11-09T12:01:42.2167320+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(30,10): error TS2339: Property 'hentAlleKontakter' does not exist on type 'FAQComponent'.
+    src/app/FAQ/FAQ.component.ts(31,10): error TS2339: Property 'hentAlleKategorier' does not exist on type 'FAQComponent'.
+    src/app/FAQ/FAQ.component.ts(48,3): error TS2304: Cannot find name 'hentAlleKontakter'.
+    src/app/FAQ/FAQ.component.ts(60,3): error TS2304: Cannot find name 'hentAlleKategorier'.
+    src/app/FAQ/FAQ.component.ts(73,3): error TS2304: Cannot find name 'stemmerJa'.
+    src/app/FAQ/FAQ.component.ts(73,13): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(73,17): error TS2693: 'number' only refers to a type, but is being used as a value here.
+    src/app/FAQ/FAQ.component.ts(74,51): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(77,34): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(87,3): error TS2304: Cannot find name 'stemmerNei'.
+    src/app/FAQ/FAQ.component.ts(87,14): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(87,18): error TS2693: 'number' only refers to a type, but is being used as a value here.
+    src/app/FAQ/FAQ.component.ts(88,51): error TS2304: Cannot find name 'id'.
+    src/app/FAQ/FAQ.component.ts(91,35): error TS2304: Cannot find name 'id'.
+    
+ (ef4790ef)
+2020-11-09T12:06:02.0649630+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-09T12:06:02.0715430+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-09T12:06:02.0740340+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-09T12:06:02.0766510+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-09T12:13:01.1242140+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-09T12:13:01.1500360+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-09T12:13:01.1566070+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-09T12:13:01.1604790+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-09T12:29:17.2661590+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-09T12:29:17.2739100+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-09T12:29:17.2766270+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-09T12:29:17.2791400+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-09T12:47:58.8624250+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-09T12:47:58.8690310+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-09T12:47:58.8722200+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-09T12:47:58.8789740+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)

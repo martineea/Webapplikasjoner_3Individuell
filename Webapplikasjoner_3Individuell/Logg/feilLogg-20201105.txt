@@ -1,0 +1,66 @@
+2020-11-05T13:11:01.1198650+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-05T13:11:01.1676230+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-05T13:11:01.1946820+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-05T13:11:01.1990050+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-05T13:15:21.4175500+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(67,44): error TS2551: Property 'id' does not exist on type 'FAQ'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(81,44): error TS2551: Property 'id' does not exist on type 'FAQ'. Did you mean 'Id'?
+    
+    
+ (a1a47714)
+2020-11-05T13:15:35.6078930+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(67,44): error TS2551: Property 'id' does not exist on type 'FAQ'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(81,44): error TS2551: Property 'id' does not exist on type 'FAQ'. Did you mean 'Id'?
+    
+    
+ (a1a47714)
+2020-11-05T13:15:35.6110380+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(67,44): error TS2551: Property 'id' does not exist on type 'FAQ'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(81,44): error TS2551: Property 'id' does not exist on type 'FAQ'. Did you mean 'Id'?
+    
+ (e5603666)
+2020-11-05T13:16:03.4468530+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(67,44): error TS2551: Property 'id' does not exist on type 'FAQ'. Did you mean 'Id'?
+    src/app/FAQ/FAQ.component.ts(81,44): error TS2551: Property 'id' does not exist on type 'FAQ'. Did you mean 'Id'?
+    
+ (e5603666)
+2020-11-05T13:19:31.7977530+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-05T13:19:31.8046030+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-05T13:19:31.8070280+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-05T13:19:31.8098880+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-05T13:20:51.8445930+01:00 0HM41GK6CMDF4:00000018 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Webapplikasjoner_3Individuell.KundeServiceRepository.OpprettKategori(FAQ innFAQ) in /Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell/DAL/KundeServiceRepository.cs:line 44
+   at Webapplikasjoner_3Individuell.Controllers.FAQController.OpprettKategori(FAQ innFAQ) in /Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell/Controllers/FAQController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-11-05T13:27:30.9319490+01:00  [ERR]     ERROR in src/app/FAQ/FAQ.component.ts(66,19): error TS2304: Cannot find name 'Kategori'.
+    src/app/FAQ/FAQ.component.ts(68,14): error TS2339: Property 'alleKategorier' does not exist on type 'FAQComponent'.
+    
+ (d618b737)
+2020-11-05T13:30:28.1902000+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-05T13:30:28.1993300+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-05T13:30:28.2025420+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-05T13:30:28.2062900+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-05T13:49:39.9552540+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-05T13:49:39.9627270+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-05T13:49:39.9667940+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-05T13:49:39.9703000+01:00  [INF] Content root path: "/Users/martine/Projects/Webapplikasjoner_3Individuell/Webapplikasjoner_3Individuell" (b5d60022)
+2020-11-05T15:32:49.9908110+01:00  [ERR]     ERROR in src/app/app.module.ts(27,5): error TS2304: Cannot find name 'CounterComponent'.
+    
+ (02493c47)
+2020-11-05T15:33:38.1756160+01:00  [ERR]     ERROR in src/app/app.module.ts(25,5): error TS2304: Cannot find name 'CounterComponent'.
+    
+    
+ (5bf2408b)
+2020-11-05T19:12:12.5179050+01:00  [ERR]     ERROR in src/app/app.module.ts(25,5): error TS2304: Cannot find name 'CounterComponent'.
+    
+    
+ (5bf2408b)
