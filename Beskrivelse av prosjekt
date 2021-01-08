@@ -1,0 +1,15 @@
+Dette er en individuell oppgave (oppgave 3) fra emnet Webapplikasjoner - her skulle det lages et FAQ-side for systemet vi lagde i oppgave 
+1 og 2 (skulle ikke bygges videre på oppg 1 og 2, men være et eget, uavhengig system). 
+
+Denne oppgaven ga meg karakteren: A
+
+Teknologier:
+- .NET Core-løsning
+- Angular
+- Bootstrap
+
+Funksjonalitet:
+- Det skulle inkludere spørsmål og svar i en dynamisk trestruktur, og Q&A skulle lagres i en database. 
+- Man skal kunne sende inn nye spørsmål, som havner i en egen FAQ-trestruktur.
+- Ratingsystem (tommel opp eller ned) 
+- Skulle ikke implementeres funksjonalitet for vedlikehold av dataene i databasen. 
